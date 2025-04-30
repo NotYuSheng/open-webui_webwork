@@ -1,0 +1,14 @@
+services:
+  open-webui_webwork:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: open-webui_webwork
+    ports:
+      - 8081:8080
+    volumes:
+      - ./static:/app/backend/open_webui/static:ro
+    environment:
+      - ENV=dev
+      - WEBUI_AUTH=False
+    restart: unless-stopped
