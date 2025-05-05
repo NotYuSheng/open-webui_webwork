@@ -1,5 +1,7 @@
 # open-webui_webwork
 
+This version of open-webui builds the `open-webui_webwork` image with the custom configuration for our use case.
+
 1. Clone the Repository
 
    ```bash
