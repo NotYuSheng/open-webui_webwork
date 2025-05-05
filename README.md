@@ -1,4 +1,4 @@
-# open-webui_webwok
+# open-webui_webwork
 
 1. Clone the Repository
 
