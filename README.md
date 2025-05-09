@@ -9,7 +9,7 @@ This version of open-webui builds the `open-webui_webwork` image with the custom
    cd open-webui_webwork
    ```
 
-2. Modify Dockerfile
+2. Make modifications
 
 3. Build
 
