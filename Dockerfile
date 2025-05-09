@@ -31,8 +31,5 @@ RUN set -eux; \
 # 5. Prepare the actual writable data directory for Peewee/SQLite
 RUN set -eux; \
     mkdir -p /app/backend/data && \
-    chown -R 10001:0 /app/backend/data && \
-    chmod 0755 /app/backend/data
-
-# 6. Drop to the non‑root user
-USER 10001
+    chgrp -R 0 /app/backend/data && \
+    chmod -R g+rwX /app/backend/data
