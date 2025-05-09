@@ -18,7 +18,7 @@ This version of open-webui builds the `open-webui_webwork` image with the custom
    docker compose up -d --build
    ```
 
-5. Push to ghcr
+5. Commit
 
    Commit your container’s state with a new tag (replace `vX.X.X` with your version number):
    ```bash
